@@ -1,0 +1,88 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280">
+  <defs>
+    <radialGradient id="fur" cx="35%" cy="25%" r="80%">
+      <stop offset="0%" stop-color="#D9AE83"/>
+      <stop offset="100%" stop-color="#95603D"/>
+    </radialGradient>
+    <radialGradient id="muzzle" cx="40%" cy="25%" r="80%">
+      <stop offset="0%" stop-color="#F9E4C9"/>
+      <stop offset="100%" stop-color="#DDB58F"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="5" stdDeviation="4"
+        flood-color="#68432D" flood-opacity=".2"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)" stroke="#815132" stroke-width="2.5"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Legs -->
+    <ellipse cx="78" cy="231" rx="34" ry="28" fill="url(#fur)"
+      transform="rotate(-12 78 231)"/>
+    <ellipse cx="162" cy="231" rx="34" ry="28" fill="url(#fur)"
+      transform="rotate(12 162 231)"/>
+    <ellipse cx="77" cy="239" rx="19" ry="12" fill="url(#muzzle)"
+      stroke="none"/>
+    <ellipse cx="163" cy="239" rx="19" ry="12" fill="url(#muzzle)"
+      stroke="none"/>
+
+    <!-- Body -->
+    <ellipse cx="120" cy="185" rx="57" ry="67" fill="url(#fur)"/>
+    <ellipse cx="120" cy="191" rx="33" ry="42" fill="url(#muzzle)"
+      stroke="none"/>
+
+    <!-- Arms -->
+    <ellipse cx="64" cy="172" rx="24" ry="39" fill="url(#fur)"
+      transform="rotate(-32 64 172)"/>
+    <ellipse cx="176" cy="172" rx="24" ry="39" fill="url(#fur)"
+      transform="rotate(32 176 172)"/>
+
+    <!-- Ears -->
+    <circle cx="73" cy="48" r="29" fill="url(#fur)"/>
+    <circle cx="167" cy="48" r="29" fill="url(#fur)"/>
+    <circle cx="74" cy="49" r="16" fill="#D99D8C" stroke="none"/>
+    <circle cx="166" cy="49" r="16" fill="#D99D8C" stroke="none"/>
+
+    <!-- Head -->
+    <circle cx="120" cy="94" r="64" fill="url(#fur)"/>
+
+    <!-- Face patches -->
+    <ellipse cx="91" cy="108" rx="14" ry="9" fill="#E7A39A"
+      stroke="none" opacity=".75"/>
+    <ellipse cx="149" cy="108" rx="14" ry="9" fill="#E7A39A"
+      stroke="none" opacity=".75"/>
+
+    <!-- Eyes -->
+    <ellipse cx="98" cy="84" rx="5.5" ry="7" fill="#38251D"
+      stroke="none"/>
+    <ellipse cx="142" cy="84" rx="5.5" ry="7" fill="#38251D"
+      stroke="none"/>
+    <circle cx="100" cy="82" r="1.8" fill="#FFFFFF" stroke="none"/>
+    <circle cx="144" cy="82" r="1.8" fill="#FFFFFF" stroke="none"/>
+
+    <!-- Muzzle -->
+    <ellipse cx="120" cy="108" rx="30" ry="24" fill="url(#muzzle)"
+      stroke="none"/>
+    <ellipse cx="120" cy="101" rx="9" ry="6.5" fill="#503326"
+      stroke="none"/>
+    <path d="M120 107 Q120 118 111 118 M120 118 Q129 118 129 112"
+      fill="none" stroke="#503326" stroke-width="2.5"/>
+
+    <!-- Bow -->
+    <path d="M104 143 Q83 125 86 146 Q91 161 111 149 Z"
+      fill="#D98E98" stroke="#B96E7A"/>
+    <path d="M136 143 Q157 125 154 146 Q149 161 129 149 Z"
+      fill="#D98E98" stroke="#B96E7A"/>
+    <circle cx="120" cy="146" r="8" fill="#F0B5B8"
+      stroke="#B96E7A"/>
+
+    <!-- Tiny heart on tummy -->
+    <path d="M120 190
+      C110 178 96 187 101 198
+      L120 214 L139 198
+      C144 187 130 178 120 190 Z"
+      fill="#C8787F" stroke="none"/>
+  </g>
+</svg>
