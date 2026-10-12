@@ -259,7 +259,7 @@ export default function HomePage() {
           </h1>
 
           <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-stone-500 sm:text-base">
-            Pshht... someone left you a little something.
+            Pshht... someone left you a little something 🙈
             <br className="hidden sm:block" />
           </p>
         </div>
@@ -337,10 +337,6 @@ export default function HomePage() {
             <div className="rounded-[1.25rem] bg-[#fffefa] p-6 shadow-[0_25px_60px_rgba(72,49,44,0.2)] sm:p-7">
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <p className="text-[9px] font-semibold uppercase tracking-[0.2em] text-[#b88782]">
-                    Open it up
-                  </p>
-
                   <h2 className="mt-3 font-serif text-2xl italic text-[#493a37]">
                     Heyy
                   </h2>
@@ -352,16 +348,16 @@ export default function HomePage() {
               </div>
 
               <div className="mt-5 space-y-3 text-sm leading-6 text-[#705c57]">
-                <p>Good Morning</p>
+                <p>Good Morning,</p>
 
                 <p>
-                  I wanted to take the time to tell you that i hope you have a
-                  good productive day!
+                  I wanted to take the time to tell you that i hope that you
+                  enjoy your day and most importantly that it is productive !
                 </p>
 
                 <p>
-                  Eres una persona tan interesante y mi favorita que he
-                  conocido.
+                  Eres una persona tan interesante y no conozco a un gente como
+                  tú, y eso me gusta !!
                 </p>
               </div>
 
